@@ -1,10 +1,10 @@
 {
     "common": {
         "acquisition": {
-        	"DAPI_channel":"ch00",
+            "DAPI_channel": "ch00",
             "RNA_channel": "ch02",
             "barcode_channel": "ch01",
-            "mask_channel": "ch01",                
+            "mask_channel": "ch01",
             "fiducialBarcode_channel": "ch00",
             "fiducialMask_channel": "ch00",
             "fiducialDAPI_channel": "ch01",
@@ -28,17 +28,17 @@
             "alignByBlock": true,
             "background_sigma": 3.0,
             "blockSize": 256,
-            "folder": "alignImages",
+            "register_global_folder": "alignImages",
+            "register_local_folder": "alignImages",
             "higher_threshold": 0.9999999,
             "lower_threshold": 0.999,
             "outputFile": "register_global",
             "referenceFiducial": "RT27",
             "tolerance": 0.1,
-            "localAlignment":"block3D",
-            "3D_lower_threshold":0.9,
-            "3D_higher_threshold":0.9999,
-            "blockSizeXY":128
-            
+            "localAlignment": "block3D",
+            "3D_lower_threshold": 0.9,
+            "3D_higher_threshold": 0.9999,
+            "blockSizeXY": 128
         }
     },
     "labels": {
